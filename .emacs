@@ -110,7 +110,7 @@
 
 (setq scroll-step 1)
 
-(global-whitespace-mode 1)
+;; (global-whitespace-mode 1)
 (put 'upcase-region 'disabled nil)
 (setq whitespace-global-modes '(not org-mode markdown-mode dired))
 (setq whitespace-style '(face tabs spaces trailing space-before-tab newline indentation empty space-after-tab space-mark tab-mark newline-mark missing-newline-at-eof))
